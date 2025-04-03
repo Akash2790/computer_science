@@ -15,6 +15,7 @@ Here I will add daily one new topic with proper explanation.
 
 # API Gateway
 
+# JWT
 
 # Questions
 ## Difference between Cookies and cache?
