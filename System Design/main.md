@@ -1,6 +1,9 @@
 # System-design
 Here I will add daily one new topic with proper explanation.
 
+## TCP
+When we send the date over the network like files, they're broken down into packets and then send over the internet and when they arrived into the destination, the packets are numbered so that they can be reassembeled into the correct order. if some packets are broken or missing, TCP ensures that they'll be resent. This is what makes it a reliable protocol and that why many other protocols like HTTP and websockets are built on top of TCP.
+
 ## DNS
 
 ## Caching
