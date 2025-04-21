@@ -20,6 +20,12 @@ When we send the date over the network like files, they're broken down into pack
 
 ## JWT
 
+## Request Header: 
+We can think it like we ship label put on a package, it tells us where the package is going, who its from and maybe some other metadata about the package itself
+Request Body: This is basically the package content. to test it out we can open our dev tools from browser and under network tab 
+
+Even in HTTP there is some API pattern that we could follow. Like the most popular one is Rest API, GraphQL
+
 ## REST
 ## SOAP
 ## RPC
