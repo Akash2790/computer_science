@@ -19,6 +19,7 @@ When we send the date over the network like files, they're broken down into pack
 ## API Gateway
 
 ## JWT
+These Tokens starts with "ey" ex: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
 
 ## Request Header: 
 We can think it like we ship label put on a package, it tells us where the package is going, who its from and maybe some other metadata about the package itself
