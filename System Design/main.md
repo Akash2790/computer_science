@@ -39,3 +39,20 @@ When we go through any website cookies remembers all the pages we are visiting. 
 When we visit any website they will load the html css for that page in browser. So that when we will visit that website again we don't have to wait to load those things again. as those things are already present in our browser. 
 
 ## Difference between REST, SOAP, RPC & GraphQL?
+
+## Difference between Router and Load Balancer?
+### **Router**
+**Primary Function:** 
+Route traffic between different networks.
+
+**Decision Making:** 
+Choose the best path for packets to travel based on their destination IP address.
+
+**Example**: Connecting your home network to the internet. 
+
+### **Load Balancers**
+**Primary Function:** Distribute traffic across multiple servers. 
+
+**Decision Making:** Based on various factors, such as server health, to determine which server to send traffic to. 
+
+**Example**: Spreading traffic across multiple web servers to prevent any one server from being overloaded. 
