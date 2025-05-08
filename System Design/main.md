@@ -69,3 +69,9 @@ Multi-threaded programming languages offer the advantage of parallel execution, 
 **Single-Threaded Language Example** :: Python, Javascript, Angular
 
 **Multi-Threaded Language Example** :: Java, C#
+
+### Is python Multithreaded?
+Python's default interpreter (CPython) is single-threaded, meaning it can only execute one thread of Python code at a time due to the Global Interpreter Lock (GIL).
+However, Python is multithreaded in the sense that it supports the creation and management of multiple threads. This means you can create multiple threads and have them appear to run concurrently, but only one thread can execute Python bytecode at a time. 
+
+Python provides libraries (like the threading module) that allow you to create and manage multiple threads. These threads can appear to run concurrently, but only one can be actively executing Python code at any given moment due to the GIL. 
