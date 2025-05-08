@@ -31,6 +31,8 @@ Even in HTTP there is some API pattern that we could follow. Like the most popul
 ## SOAP
 ## RPC
 ## GraphQL
+## Sharding: 
+When single database is not enough to handle the load. Then  we create multiple/distrubute database to handle the load and this process is called sharding. Spliting your big data into mutually subsets of data and distributing it. 
 
 # Questions
 ## Difference between Cookies and cache?
@@ -56,3 +58,14 @@ Choose the best path for packets to travel based on their destination IP address
 **Decision Making:** Based on various factors, such as server health, to determine which server to send traffic to. 
 
 **Example**: Spreading traffic across multiple web servers to prevent any one server from being overloaded. 
+
+## Single Thread Vs Multi Thread
+In Easy language, Single thread means one instruction will be executed at a time. Multi thread means multiple instructions will be executed at a time.
+
+Single-threaded programming languages are often straightforward and easy to work with. They are well-suited for tasks that do not require parallelism or when the tasks can be efficiently handled sequentially. These languages are particularly useful for simple scripts, web development, and applications where performance gains from parallelism are not critical.
+
+Multi-threaded programming languages offer the advantage of parallel execution, allowing tasks to be performed concurrently. This can lead to significant performance improvements, especially in tasks that involve heavy computation, data processing, or network operations. Multi-threading is well-suited for applications that can be divided into independent sub-tasks that can be executed simultaneously.
+
+**Single-Threaded Language Example** :: Python, Javascript, Angular
+
+**Multi-Threaded Language Example** :: Java, C#
